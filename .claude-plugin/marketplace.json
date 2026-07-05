@@ -1,0 +1,22 @@
+{
+  "name": "fable-grade-reasoning",
+  "owner": {
+    "name": "YOUR_NAME",
+    "email": "YOUR_EMAIL@example.com"
+  },
+  "metadata": {
+    "description": "Verification-first reasoning discipline for Claude Opus models, distilled from audited reasoning-trace analysis",
+    "version": "1.2.0"
+  },
+  "plugins": [
+    {
+      "name": "fable-grade-reasoning",
+      "description": "A verification-first thinking discipline for code generation, mathematical derivation, and AI-research mathematics. Targets Claude Opus-family models (built-in model gate skips Fable/Mythos-class models). Every rule is backed by a documented failure case.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/fable-grade-reasoning"
+      ]
+    }
+  ]
+}
