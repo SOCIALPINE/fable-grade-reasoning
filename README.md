@@ -31,13 +31,13 @@ The skill self-gates by model family (see `STEP 0` in SKILL.md):
 
 ### Claude Code (marketplace — recommended)
 ```
-/plugin marketplace add YOUR_GITHUB_USERNAME/fable-grade-reasoning
+/plugin marketplace add SOCIALPINEfable-grade-reasoning
 /plugin install fable-grade-reasoning@fable-grade-reasoning
 ```
 
 ### Claude Code (manual)
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/fable-grade-reasoning.git
+git clone https://github.com/SOCIALPINEfable-grade-reasoning.git
 cp -r fable-grade-reasoning/skills/fable-grade-reasoning ~/.claude/skills/
 ```
 Use the project-level `.claude/skills/` directory instead for a per-project install.
